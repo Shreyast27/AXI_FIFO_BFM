@@ -10,6 +10,7 @@ class fifo_bfm_320b_wr_incr_alligned_test_awlen_9 extends base_sequence;
   endfunction
 
   virtual task body();
+    super.body();
     req = write_fifo_seq_item :: type_id :: create("req");
     `uvm_info(get_type_name(),"Before fifo_bfm_320b_wr_incr_alligned_test_awlen_9",UVM_DEFAULT)
     repeat(1)begin
