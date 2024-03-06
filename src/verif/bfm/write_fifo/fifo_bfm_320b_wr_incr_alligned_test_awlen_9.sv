@@ -4,7 +4,6 @@
 class fifo_bfm_320b_wr_incr_alligned_test_awlen_9 extends base_sequence;
 
   `uvm_object_utils(fifo_bfm_320b_wr_incr_alligned_test_awlen_9)
-   write_fifo_seq_item req;
    
   function new(string name = "fifo_bfm_320b_wr_incr_alligned_test_awlen_9");
     super.new(name);
