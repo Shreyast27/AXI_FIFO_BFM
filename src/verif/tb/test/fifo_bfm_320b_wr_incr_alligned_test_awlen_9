@@ -11,12 +11,12 @@ class fifo_bfm_320b_wr_incr_alligned_test_awlen_9 extends fifo_base_test;
   endfunction
 
   function void build_phase(uvm_phase phase);
-    super.build_phase(phase);
-    fifo_bfm_320b_wr_incr_alligned_seq_awlen_9_h = fifo_bfm_320b_wr_incr_alligned_seq_awlen_9::type_id::create("fifo_bfm_320b_wr_incr_alligned_seq_awlen_9_h");
+    super.build_phase(phase);    
   endfunction
 
   task run_phase(uvm_phase phase);
      super.run_phase(phase);
+     fifo_bfm_320b_wr_incr_alligned_seq_awlen_9_h = fifo_bfm_320b_wr_incr_alligned_seq_awlen_9::type_id::create("fifo_bfm_320b_wr_incr_alligned_seq_awlen_9_h");
     `uvm_info(get_type_name(),$sformatf("fifo_bfm_320b_wr_incr_alligned_test_awlen_9"),UVM_LOW);
 
     phase.raise_objection(this);
