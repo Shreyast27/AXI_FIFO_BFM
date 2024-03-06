@@ -13,7 +13,7 @@ class fifo_bfm_320b_wr_incr_alligned_test_awlen_9 extends base_sequence;
   virtual task body();
     req = write_fifo_seq_item :: type_id :: create("req");
     `uvm_info(get_type_name(),"Before fifo_bfm_320b_wr_incr_alligned_test_awlen_9",UVM_DEFAULT)
-  /  repeat(1)begin
+    repeat(1)begin
       start_item(req);
     if(!req.randomize() with {req.type_of_pkt==0; req.awlen==9; req.awsize==WRITE_4_BYTES; req.awburst==WRITE_INCR}); 
        begin
