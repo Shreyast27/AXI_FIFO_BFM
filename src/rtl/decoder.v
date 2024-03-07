@@ -1,4 +1,4 @@
-module my_decoder #  (
+module decoder #  (
 					parameter  data_wid = 32,
 	                parameter  adr_wid  = 32,
 					parameter  id_wid   = 4,
