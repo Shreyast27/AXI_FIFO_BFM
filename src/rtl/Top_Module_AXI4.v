@@ -1,6 +1,6 @@
 //TOP LEVEL MODULE FOR AXI4 PROJECT
 
-module Project_AXI4_Top # (
+module Top_Module_AXI4.v # (
 						parameter  data_wid   = 64,
 						parameter  adr_wid    = 32,
 						parameter  id_wid     = 8,
