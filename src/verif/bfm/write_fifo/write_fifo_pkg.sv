@@ -31,7 +31,7 @@ package write_fifo_pkg;
   `include "fifo_bfm_80b_wr_incr_unalligned_sequence_awlen_2.sv"
   `include "fifo_bfm_wr_incr_alligned_sequence.sv"
   `include "fifo_bfm_wr_incr_alligned_sequence.sv"
-
+  `include  "fifo_bfm_320b_wr_incr_alligned_test_awlen_9.sv"
 
   `include "fifo_bfm_32b_rd_incr_alligned_sequence_arlen_0.sv"
 
