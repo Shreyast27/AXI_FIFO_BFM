@@ -30,7 +30,9 @@ package test_pkg;
   `include "fifo_bfm_32b_wr_incr_alligned_test_awlen_4_to_7.sv"
   `include "fifo_bfm_32b_wr_incr_alligned_test_awlen_8_to_11.sv"
   `include "fifo_bfm_32b_wr_incr_alligned_test_awlen_12_to_15.sv"
-
   `include "fifo_bfm_32b_rd_incr_alligned_test_arlen_0.sv"
+
+  `include  "fifo_bfm_320b_wr_incr_alligned_test_awlen_9.sv"
+
 endpackage
 `endif
