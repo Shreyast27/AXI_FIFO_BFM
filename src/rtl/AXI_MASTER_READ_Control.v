@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module AXI_MASTER_READ_Control	#(parameter  addr_width=32, 
+module AXI_MASTER_READ_CONTROL	#(parameter  addr_width=32, 
 											  parameter  data_width=64
 						               )
 						 (
